@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Movies_App</string>
+
+
+    <!-- Bottom Navigation   -->
+    <string name="bottom_nav_action_popular">Popular</string>
+    <string name="bottom_nav_action_top_rated">Top Rated</string>
+    <string name="bottom_nav_action_settings">Settings</string>
+
+    <!--  Sample Data  -->
+    <string name="sample_movie_title">Thor: Ragnarok</string>
+    <string name="sample_rating">5.9</string>
+    <string name="sample_release_date">2018–06–06</string>
+
+    <string name="rating_label">Ratings</string>
+    <string name="message_no_api_key">No movies yet…</string>
+
+    <!-- Preferences  -->
+    <string name="pref_key_name">pref_user_name</string>
+    <string name="pref_key_api_key">pref_api_key</string>
+</resources>

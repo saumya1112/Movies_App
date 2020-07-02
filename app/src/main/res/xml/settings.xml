@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<EditTextPreference
+    android:icon="@drawable/ic_user"
+    android:key="@string/pref_key_name"
+    android:selectAllOnFocus="true"
+    android:singleLine="true"
+    android:title="User Name"
+    app:useSimpleSummaryProvider="true" />
+
+<EditTextPreference
+    android:icon="@drawable/ic_key"
+    android:key="@string/pref_key_api_key"
+    android:selectAllOnFocus="true"
+    android:title="API Key"
+    app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>
